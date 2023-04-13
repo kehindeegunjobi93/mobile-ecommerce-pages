@@ -1,0 +1,84 @@
+$primary-color: #2B2D40;
+
+.slider {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  height: 274px;
+  width: 100%;
+
+  &__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+
+    &--active {
+      opacity: 1;
+    }
+
+    &:not(.slider__slide--active) {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    &-content {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      padding: 0 20px;
+      z-index: 1;
+      color: $primary-color;
+
+      h2 {
+        font-size: 30px;
+        margin: 10px 0px;
+      }
+
+      p {
+        font-size: 12px;
+        margin: 0 0 10px 0;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .slider-indicators {
+    position: absolute;
+    top: 72px;
+    right: 5%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .slider-indicator {
+      width: 5px;
+      height: 4px;
+      margin: 0 2px;
+      background-color: gray;
+      cursor: pointer;
+      transition: background-color 0.5s ease-in-out;
+
+      &.active {
+        width: 10px;
+        background: $primary-color;
+        border-radius: 0%;
+      }
+    }
+  }
+}

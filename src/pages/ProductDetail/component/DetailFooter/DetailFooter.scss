@@ -1,0 +1,59 @@
+@import '../../../../styles/_variables.scss';
+
+.detail-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 90%;
+    background-color: #fff;
+    z-index: 999;
+    padding: 0 20px;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+
+    .footer-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .price {
+            margin-top: 25px;
+
+            span {
+                color: gray;
+                font-weight: 400;
+                font-size: 15px;
+            }
+
+            p {
+                margin-top: 1px;
+                font-size: 35px;
+                font-weight: 600;
+                color: $secondary-color;
+            }
+        }
+
+        .cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            button {
+                color: white;
+                border: none;
+                font-size: 18px;
+                padding: 15px;
+
+                &:first-child{
+                    background: $secondary-color;
+                    border-radius: 10px 0 0 10px;
+                }
+
+                &:last-child{
+                    background: $primary-color;
+                    border-radius: 0px 10px 10px 0px;
+                }
+            }
+        }
+    }
+}

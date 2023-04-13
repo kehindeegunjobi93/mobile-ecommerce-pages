@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$12.00",
+        "image": "/assets/products/clothes1.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$122.00",
+        "image": "/assets/products/clothes2.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$13.00",
+        "image": "/assets/products/clothes3.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$142.00",
+        "image": "/assets/products/clothes4.jpeg"
+    },
+    {
+        "id": 5,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$125.00",
+        "image": "/assets/products/clothes5.jpeg"
+    },
+    {
+        "id": 6,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$612.00",
+        "image": "/assets/products/clothes6.jpeg"
+    },
+    {
+        "id": 7,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$172.00",
+        "image": "/assets/products/clothes7.jpeg"
+    },
+    {
+        "id": 8,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$128.00",
+        "image": "/assets/products/clothes8.jpeg"
+    },
+    {
+        "id": 9,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$129.00",
+        "image": "/assets/products/clothes1.jpeg"
+    },
+    {
+        "id": 10,
+        "title": "Essentials Men's Short-Sleeve Crownnect T-Shirt",
+        "price": "$12.00",
+        "image": "/assets/products/clothes2.jpeg"
+    }
+]

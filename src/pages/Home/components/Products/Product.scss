@@ -1,0 +1,109 @@
+@import '../../../../styles/_variables.scss';
+$product-grid-gap: 20px;
+
+.product-container {
+    margin: 0 20px;
+
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &--fixed {
+            position: fixed;
+            top: 75px;
+            left: 0;
+            z-index: 9;
+            width: 100%;
+            background-color: white;
+            padding: 0 20px;
+
+            p {
+                margin-right: 42px;
+            }
+        }
+
+        h2 {
+            color: $primary-color
+        }
+
+        p {
+            color: $secondary-color;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-gap: $product-grid-gap;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        transition: all 0.3s ease;
+        position: relative;
+
+        .favorite {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+
+        .product-details {
+            padding: 0px 8px;
+        }
+
+        &:hover {
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transform: translateY(-5px);
+        }
+
+        span {
+            color: gray;
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+            text-align: start;
+            margin: 5px 0;
+        }
+
+        p {
+            font-size: 15px;
+            font-weight: bold;
+            color: $secondary-color;
+        }
+
+        .product-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: -13px 0;
+
+            .rating {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Category",
+    "icon": "/assets/dashboard.png"
+  },
+  {
+    "id": 2,
+    "title": "Flight",
+    "icon": "/assets/plane.png"
+  },
+  {
+    "id": 3,
+    "title": "Bill",
+    "icon": "/assets/bill.png"
+  },
+  {
+    "id": 4,
+    "title": "Data Plan",
+    "icon": "/assets/folder.png"
+  },
+  {
+    "id": 5,
+    "title": "Top up",
+    "icon": "/assets/hourglass.png"
+  },
+  {
+    "id": 6,
+    "title": "Others",
+    "icon": "/assets/task.png"
+  },
+  {
+    "id": 7,
+    "title": "Plans",
+    "icon": "/assets/up-arrow.png"
+  },
+  {
+    "id": 8,
+    "title": "DSTV",
+    "icon": "/assets/world.png"
+  },
+  {
+    "id": 9,
+    "title": "School",
+    "icon": "/assets/school.png"
+  },
+  {
+    "id": 10,
+    "title": "Leisure",
+    "icon": "/assets/leisure.png"
+  }
+]

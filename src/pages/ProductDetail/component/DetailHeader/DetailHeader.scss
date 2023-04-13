@@ -1,0 +1,43 @@
+@import '../../../../styles/_variables.scss';
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    z-index: 1;
+
+    svg {
+        font-size: 30px;
+    }
+
+    .header-icons {
+
+        .fave-icon {
+            color: $purple-color;
+        }
+
+        .cart-icon {
+            position: relative;
+        }
+
+        .cart-notification-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            padding: 5px 8px;
+            color: white;
+            font-size: 11px;
+            background: $purple-color;
+            border-radius: 5px;
+        }
+
+        svg {
+            margin-left: 20px;
+        }
+    }
+}
